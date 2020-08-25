@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PlanetasRA</string>
+
+    //Menu Principal Activity
+    <string name="btnSistemaSolar">Sistema Solar</string>
+    <string name="btnPlanetas">Planetas y Estrellas</string>
+    <string name="btnTrivia">Trivia</string>
+    <string name="btnSalir">Salir</string>
+
+    //Trivia Activity
+    <string name="btnDificultad">Dificultad</string>
+    <string name="btnEmpezar">Empezar</string>
+    <string name="btnPuntaje">Puntaje</string>
+    <string name="btnRegresar">Regresar al menú principal</string>
+
+    //Planetas Activity
+    <string name="page_title">Hola</string>
+</resources>

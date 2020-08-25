@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_menu"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="388dp"
+        android:layout_height="720dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Menú "
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_menu1"
+            android:onClick="btnSistema"
+            android:text="@string/btnSistemaSolar"
+            android:textColor="@drawable/btn_txt_menu1" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_menu1"
+            android:onClick="btnPlanetas"
+            android:text="@string/btnPlanetas"
+            android:textColor="@drawable/btn_txt_menu1" />
+
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_menu1"
+            android:onClick="btnTrivia"
+            android:text="@string/btnTrivia"
+            android:textColor="@drawable/btn_txt_menu1"
+
+            />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_menu1"
+            android:text="@string/btnSalir"
+            android:textColor="@drawable/btn_txt_menu1"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
