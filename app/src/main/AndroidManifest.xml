@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SolActivity"
-            android:parentActivityName=".PlanetasActivity"></activity>
+        <activity android:name=".PuntajeActivity"></activity>
+        <activity android:name=".juegoActivity" />
+        <activity android:name=".dificultadActivity" />
+        <activity
+            android:name=".SolActivity"
+            android:parentActivityName=".PlanetasActivity" />
         <activity android:name=".TriviaActivity" />
         <activity android:name=".PlanetasActivity" />
         <activity android:name=".SistemaActivity" />

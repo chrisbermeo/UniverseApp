@@ -28,23 +28,14 @@
             app:srcCompat="@drawable/logo_trivia" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btnDificultad"
-            android:layout_marginBottom="16dp"
-            android:textColor="@drawable/btn_txt_menu1"
-            android:background="@drawable/btn_menu1"
-            />
-
-        <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_empezar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/btnEmpezar"
             android:layout_marginBottom="16dp"
             android:textColor="@drawable/btn_txt_menu1"
-            android:background="@drawable/btn_menu1"
+            android:background="@drawable/btn_trivia_menu"
+            android:onClick="btnEmpezar"
             />
 
         <Button

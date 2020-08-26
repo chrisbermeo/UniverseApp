@@ -15,4 +15,10 @@
 
     //Planetas Activity
     <string name="page_title">Hola</string>
+
+    //Dificultad Activity
+    <string name="trivia_titulo">Escoja la dificultad</string>
+    <string name="btnFacil">Fácil</string>
+    <string name="btnDificil">Difícil</string>
+
 </resources>
